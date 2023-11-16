@@ -1,5 +1,11 @@
 //your JS code here. If required.
-function funName() {
-	alert("funName");
+function functionName(){
+    // alert(arguments.callee.name)
+	alert("functionName");
 }
-funName();
+functionName();
+function AccioJob(){
+    // alert(arguments.callee.name)
+	alert("AccioJob");
+}
+AccioJob();
