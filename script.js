@@ -1,11 +1,11 @@
 //your JS code here. If required.
 function functionName(){
     // alert(arguments.callee.name)
-	alert("functionName");
+	alert(arguments.callee.name);
 }
 functionName();
 function AccioJob(){
     // alert(arguments.callee.name)
-	alert("AccioJob");
+	alert(arguments.callee.name);
 }
 AccioJob();
